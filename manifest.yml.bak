@@ -1,0 +1,8 @@
+  host: my_bluemix_app_name
+  disk: 1024M
+  name: my_bluemix_app_name
+  command: node app.js
+  path: .
+  domain: mybluemix.net
+  memory: 128M
+  instances: 1

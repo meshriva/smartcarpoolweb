@@ -1,0 +1,8 @@
+  host: restmeshriva
+  disk: 1024M
+  name: restmeshriva
+  command: node app.js
+  path: .
+  domain: mybluemix.net
+  memory: 128M
+  instances: 1
