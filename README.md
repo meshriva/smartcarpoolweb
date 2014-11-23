@@ -15,7 +15,13 @@ Download the [Cloud Foundry CLI version 6](https://github.com/cloudfoundry/cli/r
 Running this sample
 ---
 
-To test the Node.js code you need to have created a Mobile Cloud Boilerplate application with [IBM Bluemix](http://bluemix.net) and you need to make a note of your application id.
+To test the Node.js code you need to have Node.js installed on your system. In the folder downloaded run 
+```javascript
+npm install
+npm start
+```
+
+To update the solution and deploy on Bluemix created a Mobile Cloud Boilerplate application with [IBM Bluemix](http://bluemix.net) and you need to make a note of your application id.
 
 ### Configuration
 
