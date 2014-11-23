@@ -1,18 +1,10 @@
-bluelist-push-node sample
+Smart Pool Web 
 ===
 
-The bluelist-push-node code is the Node.js runtime code used for both the Android and iOS samples to add Cloud Code notifications. 
+Smart Pool Web code is the Node.js runtime code used for both the Android and its internal web application as Cloud service.The other part is a web application written in express framework which connects to the cloud service
 
-This sample works with the Mobile Cloud, an application boilerplate that is available on [IBM Bluemix](https://www.ng.bluemix.net).  With this boilerplate, you can quickly incorporate pre-built, managed, and scalable cloud services into your mobile applications without relying on IT involvement. You can focus on building your mobile applications rather than the complexities of managing the back end infrastructure.
-
-Downloading this sample
----
-
-You can clone the samples from IBM DevOps Services with the following command:
-
-    git clone https://hub.jazz.net/git/mobilecloud/bluelist-push
-
-The bluelist-push-node code is the Node.js runtime code used with both the bluelist-push-android and bluelist-push-iOS samples.
+This project provides a web based solution for Smarter Car Pooling solution. The solution is based on IBM Bluemix 
+capabilities ,and it used IBM services for exposing a cloud service,push notification and IBM mobile data for persistence. 
 
 Prerequisite's
 ---
@@ -27,7 +19,8 @@ To test the Node.js code you need to have created a Mobile Cloud Boilerplate app
 
 ### Configuration
 
-You need to modify the ```app.js``` file with your corresponding application id and application route.
+You need to modify the ```app.js``` file with your own corresponding application id and application route.
+Code is already with a current applicationId and applicationRoute, and it can be deployed as it 
 
 ```javascript
 //configuration for application
@@ -54,3 +47,4 @@ cf login -a https://ace.ng.bluemix.net
 ```bash
 cf push ${yourAppName} -p . -m 512M
 ```
+Note: remember to change manifest.mf with your own ```appName```
