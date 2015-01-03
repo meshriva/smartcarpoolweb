@@ -43,9 +43,9 @@ var ibmpush = require('ibmpush');
 
 //configuration for application
 var appConfig = {
-	applicationId: "445e9200-f6b5-4f61-8e86-d679dc9badd0",
-	applicationRoute: "restmeshriva.mybluemix.net",
-	applicationSecret:"726c5b4e326b90e10f529f58ab696beb55a88376"
+	applicationId: "<<applicationId>>",
+	applicationRoute: "<<applicationRoute>>",
+	applicationSecret:"<<applicationSecret>>"
 };
 
 //initialize mbaas-config module
